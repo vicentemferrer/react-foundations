@@ -13,8 +13,27 @@
 		<script type="text/jsx">
 			const app = document.getElementById('app');
 
+			function HomePage() {
+				const names = ['Ada Lovelace', 'Grace Hopper', 'Margaret Hamilton'];
+
+				return (
+					<div>
+						<Header title="Develop. Preview. Ship. 🚀" />
+						<ul>
+							{names.map((name) => (
+								<li key={name}>{name}</li>
+							))}
+						</ul>
+					</div>
+				);
+			}
+
+			function Header({title}) {
+				return (<h1>{title ? title : `Welcome to React`}</h1>)
+			}
+
 			const root = ReactDOM.createRoot(app);
-			root.render(<h1>Develop. Preview. Ship. 🚀</h1>);
+			root.render(<HomePage />);
 		</script>
 	</body>
 </html>
