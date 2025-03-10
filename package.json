@@ -1,0 +1,26 @@
+{
+	"name": "react-foundations",
+	"version": "1.0.0",
+	"description": "A practice repo to store progress in React Foundations capacitation provided by nextjs.org.",
+	"scripts": {
+		"dev": "next dev",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/vicentemferrer/react-foundations.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "module",
+	"bugs": {
+		"url": "https://github.com/vicentemferrer/react-foundations/issues"
+	},
+	"homepage": "https://github.com/vicentemferrer/react-foundations#readme",
+	"dependencies": {
+		"next": "^15.2.1",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0"
+	}
+}
